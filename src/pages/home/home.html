@@ -1,0 +1,89 @@
+<!-- <ion-content padding>
+  <ion-item>
+    <ion-input [(ngModel)]="myInput"></ion-input>
+  </ion-item>
+  <button (click)="btnAddClicked()" ion-button>Add</button>
+
+  <ion-list>
+    <ion-item *ngFor="let item of arrData; let i = index" (click)="delete(i)">
+      {{item.$value}}
+    </ion-item>
+  </ion-list>
+
+</ion-content>
+ -->
+
+<ion-content>
+ <form [formGroup]= "user">
+
+  <ion-item>
+    <ion-label floating>Customer name</ion-label>
+    <ion-input type="text" formControlName="name"></ion-input>
+  </ion-item>
+  
+  <ion-item>
+    <ion-label floating>Cutomer add</ion-label>
+    <ion-input type="text" formControlName="add"></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-label floating>mobile Number</ion-label>
+    <ion-input type="number" formControlName="mob"></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-label floating>installation date</ion-label>
+    <ion-input type="date" formControlName="ins"></ion-input>
+  </ion-item>
+
+ <ion-item>
+  <ion-label>Servicing type</ion-label>
+  <ion-select  formControlName="type" >
+    <ion-option selected value="n" >NEW</ion-option>
+    <ion-option value="a">AMC</ion-option>
+  </ion-select>
+</ion-item>  
+
+  <ion-item>
+    <ion-label floating>1st sevicing</ion-label>
+    <ion-input type="date" formControlName="fsr"></ion-input>
+  </ion-item>
+  
+  <ion-item>
+    <ion-label floating>2nd servicing</ion-label>
+    <ion-input type="date" formControlName="ssr"></ion-input>
+  </ion-item>
+
+   <ion-item>
+    <ion-label floating>3rd servicing</ion-label>
+    <ion-input type="date" formControlName="tsr"></ion-input>
+  </ion-item>
+
+   <ion-item>
+    <ion-label floating>4th servicing</ion-label>
+    <ion-input  type="date" formControlName="fosr"></ion-input>
+  </ion-item>
+
+   <ion-item>
+    <ion-label floating>Amount Paid</ion-label>
+    <ion-input type="number" formControlName="paid"> </ion-input>
+  </ion-item>
+
+   <ion-item>
+   <ion-label floating>Balance</ion-label>
+    <ion-input type="number" formControlName="bal"></ion-input>
+  </ion-item>
+   <ion-item>
+   <ion-label floating>Total Amount</ion-label>
+    <ion-input type="number" formControlName="total"></ion-input>
+  </ion-item>
+
+  <ion-row>
+    <ion-col text-center>
+      <button ion-button round outline type="submit" color="primary" (click)="onSignIn()" >
+        Submit
+      </button>
+    </ion-col>
+  </ion-row>
+
+ </form>
+</ion-content>

@@ -1,0 +1,89 @@
+{
+    "locations": [
+ 
+        {
+            "title": "RTO commissioner",
+            "latitude": 19.997628,
+            "longitude": 73.769546,
+            "img" :"assets/imgs/RTO.png",
+            "add" :"Nashik Road ,Nashik ,Maharashatra",
+            "number":1234567891
+        },
+       
+        {
+            "title": "Sharanpur police station",
+            "latitude": 19.995047,
+            "longitude": 73.769696,
+             "img" :"assets/imgs/RTO.png",
+             "add" :"Mumbai,Maharashatra",
+             "number":9696111111
+        },
+        {
+            "title": "Tibet market",
+            "latitude": 19.998576,
+            "longitude": 73.767614,
+             "img" :"assets/imgs/RTO.png",
+             "add" :"Deolali Gaon,Nashik Road ,Maharashatra",
+             "number":2222222222
+        },
+         
+         {
+            "title": "Datta mandir garden",
+            "latitude": 20.001257,
+            "longitude": 73.766112,
+             "img" :"assets/imgs/RTO.png",
+             "add" :"bhendi bazar,Mumbai ,Maharashatra",
+             "number":3333333333
+        },
+         {
+            "title": "Viraj park",
+            "latitude": 19.967178,
+            "longitude": 73.775511,
+             "img" :"assets/imgs/RTO.png",
+             "add" :"Wadala ,Nashik ,Maharashatra",
+             "number":444444444
+        },
+        {
+            "title": "mosque/masjid",
+            "latitude": 19.988473,
+            "longitude":73.774202,
+             "img" :"assets/imgs/RTO.png",
+             "add" :"shalimar ,Nashik ,Maharashatra",
+             "number":5555555555
+        },
+         {
+            "title": "Bos Udayan ",
+            "latitude": 19.975305,
+            "longitude": 73.760405,
+             "img" :"assets/imgs/RTO.png",
+             "add" :"Bytco Point,Nashik ,Maharashatra",
+             "number":6666666666
+        }, 
+        {
+            "title": "ICICI Bank Ambed",
+            "latitude": 19.964253,
+            "longitude": 73.765340,
+             "img" :"assets/imgs/RTO.png",
+             "add" :"Wihit Gaon,Nashik ,Maharashatra",
+             "number":7777777777
+
+
+        },
+         {
+            "title": "Wasan Toyota",
+            "latitude": 19.957880,
+            "longitude": 73.760769,
+            "img" :"assets/imgs/RTO.png",
+            "add" :"canada Corner,Nashik ,Maharashatra",
+            "number":8888888888
+        }, 
+        {
+            "title": "Indra nager garden",
+            "latitude": 19.971453,
+            "longitude": 73.780317,
+            "img" :"assets/imgs/RTO.png",
+            "add" :"ShreeWebs,Nashik,Maharashatra",
+            "number":9999999999
+        }
+    ]
+}
